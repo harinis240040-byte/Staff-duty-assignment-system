@@ -1,0 +1,56 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+        "type": "java",
+        "name": "AssignmentsViewer",
+        "request": "launch",
+        "mainClass": "ui.AssignmentsViewer",
+        "projectName": "staff_duty_assignment_system_df34557b"
+    },
+    {
+        "type": "java",
+        "name": "DutyClient",
+        "request": "launch",
+        "mainClass": "client.DutyClient",
+        "projectName": "staff_duty_assignment_system_df34557b"
+    },
+    {
+        "type": "java",
+        "name": "ViewAllDuties",
+        "request": "launch",
+        "mainClass": "ui.ViewAllDuties",
+        "projectName": "staff_duty_assignment_system_df34557b"
+    },
+    {
+        "type": "java",
+        "name": "DutyServer",
+        "request": "launch",
+        "mainClass": "server.DutyServer",
+        "projectName": "staff_duty_assignment_system_df34557b"
+    },
+    {
+        "type": "java",
+        "name": "AdminUI",
+        "request": "launch",
+        "mainClass": "ui.AdminUI",
+        "projectName": "staff_duty_assignment_system_df34557b"
+    },
+    {
+        "type": "java",
+        "name": "Run Duty Server",
+        "request": "launch",
+        "mainClass": "server.DutyServer",
+        "projectName": "staff_duty_assignment_system",
+        "vmArgs": "-cp \"${workspaceFolder}/lib/mysql-connector-java.jar;${workspaceFolder}/bin\""
+    },
+    {
+        "type": "java",
+        "name": "Run Duty Client",
+        "request": "launch",
+        "mainClass": "client.DutyClient",
+        "projectName": "staff_duty_assignment_system",
+        "vmArgs": "-cp \"${workspaceFolder}/lib/mysql-connector-java.jar;${workspaceFolder}/bin\""
+    }
+]
+}
