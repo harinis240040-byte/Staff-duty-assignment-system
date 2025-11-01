@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "MainApp",
+        "request": "launch",
+        "mainClass": "ui.MainApp",
+        "projectName": "staff_duty_assignment_system_df34557b"
+    },
+    {
+        "type": "java",
         "name": "AssignmentsViewer",
         "request": "launch",
         "mainClass": "ui.AssignmentsViewer",
